@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter App',
-      theme: ThemeData(accentColor: Colors.red), // ThemeData
+      theme: ThemeData(accentColor: Colors.white), // ThemeData
       home: Scaffold(
       //   appBar: AppBar(
       //     title: Text('Song Lyrics Finder'),

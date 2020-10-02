@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter_app_test/Dashboard.dart';
 import 'package:flutter_app_test/MyTab.dart';
 
 class Home extends StatelessWidget {

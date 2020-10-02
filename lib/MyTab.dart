@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_test/Dashboard.dart';
-import 'package:flutter_app_test/Favorites.dart';
-import 'package:flutter_app_test/Lyrics.dart';
-import 'package:flutter_app_test/Songs.dart';
+
+import 'widgets/Favorites.dart';
+import 'widgets/Lyrics.dart';
+import 'widgets/Songs.dart';
 
 void main() {
   runApp(MyTab());

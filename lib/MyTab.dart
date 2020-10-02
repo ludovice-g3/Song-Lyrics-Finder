@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_test/utils.dart';
 
 import 'widgets/Favorites.dart';
 import 'widgets/Lyrics.dart';
@@ -23,7 +24,7 @@ class MyTab extends StatelessWidget {
                 Tab(icon: Icon(Icons.favorite)),
               ],
             ),
-            title: Text('Tabs Demo'),
+            title: Text(Utils.appName),
           ),
           body: TabBarView(
             children: [

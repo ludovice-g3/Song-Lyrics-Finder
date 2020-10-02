@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_app_test/MyTab.dart';
 
+import 'utils.dart';
+
 class Home extends StatelessWidget {
   final Future<FirebaseApp> _initialization = Firebase.initializeApp();
 
@@ -10,7 +12,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return MaterialApp(
-      title: 'Flutter App',
+      title: Utils.appName,
       theme: ThemeData(accentColor: Colors.white), // ThemeData
       home: Scaffold(
         body: Center(

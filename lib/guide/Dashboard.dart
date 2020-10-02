@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_app_test/MyTab.dart';
 
+import '../utils.dart';
 import 'FloatingTabBar.dart';
 import 'SongScreen.dart';
 
@@ -12,7 +13,7 @@ class Dashboard extends StatelessWidget {
     CollectionReference users = FirebaseFirestore.instance.collection('artists');
 
     return MaterialApp(
-      title: 'Flutter App',
+      title: Utils.appName,
       theme: ThemeData(accentColor: Colors.red), // ThemeData
       home: Scaffold(
         // appBar: AppBar(

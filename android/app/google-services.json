@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1047573424384",
+    "firebase_url": "https://song-lyrics-finder-d75e5.firebaseio.com",
+    "project_id": "song-lyrics-finder-d75e5",
+    "storage_bucket": "song-lyrics-finder-d75e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047573424384:android:b846dad8a775aa6629ebe5",
+        "android_client_info": {
+          "package_name": "com.cec.lyricsfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047573424384-0rfv560dvtf7e8hjv4jgnuiu9gc8v3nj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABJ8mwm5lnHfTXAyqMrWYCKHDnaXVZYX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047573424384-0rfv560dvtf7e8hjv4jgnuiu9gc8v3nj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

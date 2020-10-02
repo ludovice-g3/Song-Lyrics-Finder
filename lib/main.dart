@@ -6,11 +6,12 @@ void main(){
 }
 
 class MyApp extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter App',
-      theme: ThemeData(accentColor: Colors.white), // ThemeData
+      theme: ThemeData(accentColor: Colors.red), // ThemeData
       home: Scaffold(
       //   appBar: AppBar(
       //     title: Text('Song Lyrics Finder'),
